@@ -5,7 +5,7 @@ from conans import ConanFile, tools
 import os
 
 
-class DoctesetConan(ConanFile):
+class DoctestConan(ConanFile):
     name = "doctest"
     version = "1.2.6"
     url = "https://github.com/bincrafters/conan-doctest"
