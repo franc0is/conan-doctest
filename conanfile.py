@@ -7,13 +7,13 @@ import os
 
 class DoctestConan(ConanFile):
     name = "doctest"
-    version = "1.2.6"
+    version = "1.2.7"
     url = "https://github.com/bincrafters/conan-doctest"
     description = "C++98/C++11 single header testing framework"
     license = "MIT"
     exports = ["LICENSE.md"]
     source_subfolder = "source_subfolder"
-    
+
     def source(self):
         source_url = "https://github.com/onqtam/doctest"
         tools.get("{0}/archive/{1}.tar.gz".format(source_url, self.version))
